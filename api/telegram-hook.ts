@@ -15,7 +15,7 @@ export async function handleTestCommand(ctx: TelegrafContext) {
   const COMMAND = "/test"
   const { message } = ctx
 
-  let reply = "Hello there! Awaiting your service"
+  let reply = "Hello there! Awaiting your service1"
 
   const didReply = await ctx.reply(reply, {
     reply_to_message_id: message?.message_id,
